@@ -1,7 +1,7 @@
 const { Types } = require("mongoose");
 const Email = require("../models/email.js");
-const nodemailer= require('nodemailer')
-const {mandarEmail} =require('../mailer/nodemailerFooter.js')
+/* const nodemailer= require('nodemailer')
+const {mandarEmail} =require('../mailer/nodemailerFooter.js') */
 
 
 //funcion para crear usuario

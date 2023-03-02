@@ -1,7 +1,7 @@
 const { Types } = require("mongoose");
 const User = require("../models/user.js");
-const nodemailer= require('nodemailer')
-const {mandarEmail} =require('../mailer/nodemailer.js')
+/* const nodemailer= require('nodemailer')
+const {mandarEmail} =require('../mailer/nodemailer.js') */
 
 
 //funcion en la que me traigo todos los usurios

@@ -1,6 +1,6 @@
 const { Types } = require("mongoose");
 const User = require("../models/user.js");
-const nodemailer= require('nodemailer')
+/* const nodemailer= require('nodemailer') */
 const createSale= require('../Controllers/createrSale');
 const product = require("../models/product.js");
 require("dotenv").config()
@@ -8,7 +8,7 @@ const {
     USER, PASS
   } = process.env;
 
-let transporter = nodemailer.createTransport({
+/* let transporter = nodemailer.createTransport({
     host: "smtp.gmail.com",
     port: 465,
     //secure: true, // true for 465, false for other ports
@@ -16,7 +16,7 @@ let transporter = nodemailer.createTransport({
       user: `${USER}`, // generated ethereal user
       pass: `${PASS}`, // generated ethereal password
     },
-  });
+  }); */
 
   transporter.verify().then(() => {
     console.log('ready for send emails');

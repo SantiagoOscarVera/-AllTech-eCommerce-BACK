@@ -11,7 +11,7 @@ const { validateNewSale } = require("../Validators/sale.js");
 const {validate} = require("../Helpers/validateHelper.js")
 
 
-const {mandarEmail} =require('../mailer/nodemailerSale.js')
+/* const {mandarEmail} =require('../mailer/nodemailerSale.js') */
 
 saleRouter = Router();
 
